@@ -1,3 +1,4 @@
+//dibujo
 function dibujar(){
     var canvas = document.getElementById('lienzo');
     if (canvas.getContext){

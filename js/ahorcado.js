@@ -1,3 +1,4 @@
+//palabras
 let palabras = Array("Boca","River","Nacional","Racing","Independiente");
         let palabraOc = "";//Palabra Oculta
         let palabraAdi = "";//Palabra que va adivinando

@@ -1,4 +1,4 @@
-//captura y guardado en array de nuevas palabras
+//captura y guardado en array de nuevas palabrass
 function capturar() {
     //console.log("capturado")
     var capturarCaja = document.getElementById("input-nueva-palabra").value;
