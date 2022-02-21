@@ -1,0 +1,114 @@
+
+        *{
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            text-align: center;
+            background-image: url(../img/ivideo.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        section{
+            text-align: center;
+            align-content: center;
+            box-sizing: border-box;
+            display: inline-block;
+            padding: 0.5rem;
+            width: 40%;
+            vertical-align: top;
+        }
+        #lienzo{
+            background-color: rgba(255, 2, 2, 0.288);
+            border: 2px solid rgb(255, 255, 255);
+            width: 500px;
+            height: 440px;
+        }
+        input[type="text"]{
+            text-align: center;
+            background-color: rgb(226, 43, 43);
+            border: 5px solid rgb(0, 0, 0);
+            font-size: 1.6rem;
+            color: rgb(255, 255, 255);
+        }
+        input::placeholder { color: rgb(255, 255, 255); 
+        }
+        input[type="button"]{
+            background-color: rgb(23, 102, 221);
+            color: rgb(255, 255, 255);
+            font-size: 1.7rem;
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            border-radius: 5px;
+            border: 5px solid rgb(255, 0, 0);
+        }
+        div{
+            text-align: center;
+            background-color: lightblue;
+            font-size: 1.7rem;
+            padding: 0.2rem;
+        }
+        div#frase{
+            background-color: grey;
+            border: 1px solid red;
+            margin-top: 0.5rem;
+            padding: 0rem;
+            text-align: center;
+        }
+        .container{
+            background: rgba(255,255,255, 0.5);
+            text-align: center;
+        }
+        .text {
+            background: rgba(248, 0, 0, 0.5);
+            color: #ffffff;
+            text-align: center;
+        }
+        #salida{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.418);
+            height: 40px;
+        }
+        #salida::placeholder { 
+            color: rgb(255, 255, 255); 
+        }
+
+        @media screen and (max-width: 576px) {
+            body {
+            background-color: black;
+            margin: 0%;
+            background-image:url(../img/ivideo.gif);
+            background-size: 100vh;
+            }
+            section{
+                text-align: center;
+                box-sizing: border-box;
+                display: inline-block;
+                padding: 0.1rem;
+                width: 100%;
+            }
+            #lienzo{
+                margin: 10px;
+                background-color: rgba(255, 2, 2, 0.288);
+                border: 2px solid rgb(255, 255, 255);
+                width: 300px;
+                height: 200px;
+                vertical-align: top;
+            }
+            .container{
+                background: rgba(255,255,255, 0.5);
+                text-align: center;
+                align-content: center;
+                margin: 5px;
+            }
+            #salida{
+                text-align: center;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.418);
+                height: 40px;
+                margin-left: 5px;
+            }

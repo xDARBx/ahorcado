@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado by xDARBx</title>
+    <link rel="stylesheet" href="css/istyle.css">
+  </head>
+  <body>
+    <div>
+      <h1 class="titulo">Bienvenidos al juego del Ahorcado by xDARBx</h1>
+      <button class="btn" id="iniciar-juego" onclick="window.location.href='home.html';">INICIAR</button>
+    </div>
+
+    <div>
+      <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Agregar una nueva palabra al juego">
+      <button class="btn" id="nueva-palabra" onclick="capturar();">NUEVA PALABRA</button>
+      <button class="btn" id="borrar-palabra" onclick="limpiar();">BORRAR PALABRA</button>
+    </div>
+
+    
+    <footer>
+        <div class="container">
+            <div class="text">
+                DARB 2022
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/canvas.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/ahorcado.js"></script>
+
+  </body>
+</html>
